@@ -1,0 +1,16 @@
+name: Bug Report
+description: Use this template to report bugs in the project.
+title: "Bug Report: [Provide a brief summary here]" # Predefined title
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide the details of the bug below.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: Provide a detailed explanation of the issue.
+      placeholder: "Steps to reproduce, expected behavior, etc."
